@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Runtime.CompilerServices;
 
 namespace Counting_From_a_File
@@ -11,6 +12,8 @@ namespace Counting_From_a_File
 
         public static void DisplayStats()
         {
+            Console.WriteLine("Please enter the path of the text file below.");
+            String filepath = Console.ReadLine();
             FileStream fs = new FileStream(filepath, FileMode.Open);
             StreamReader myReader = new StreamReader(fs);
             StreamWriter myWriter = new StreamWriter(fs);
@@ -56,11 +59,19 @@ namespace Counting_From_a_File
                 finalnums.Add(count);
             }
 
+            //Displaying All Duplicates
             for (int i = 0; i < Uniques.Count; i++)
             {
                 Console.WriteLine("{0}. " + Uniques[i] + ": " + finalnums[i], (i + 1));
             }
 
+            ////Summing All Numbers in FinalNums
+            //int sum = 0;
+            //foreach (int num in finalnums)
+            //{
+            //    sum += num;
+            //}
+            //Console.WriteLine("Total Number of Bosses: " + sum);
 
             myWriter.Flush();
             myWriter.Close();
