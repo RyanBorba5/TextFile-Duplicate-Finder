@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Counting From a File")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9753d29836bf1baf0a628c4fb828b99b537bd440")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f56cd513f2a3d191e7a6e74f112a638c7b10e95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Counting From a File")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Counting From a File")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
